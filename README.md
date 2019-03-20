@@ -36,5 +36,6 @@ Basic home automation soft for everything!
 
 * Файлы веб-интерфейса системы: **/web/**
 * Файл со скетчем для прошивки микроконтроллера: **/SmartHome_sketch.ino**
+* Файл для системы оповещения о проникновении: **/alarm.py**
 * Схема сборки прототипа (**/Schema.jpg**):
 ![Схема сборки](https://github.com/HryBot/SmartHome/blob/master/Schema.jpg)
