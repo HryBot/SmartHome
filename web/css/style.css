@@ -1,0 +1,148 @@
+.navbar-brand{
+
+
+        font-size: 30px;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+.parametr{
+    font-family: 'Oswald', sans-serif;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.primary-color.ml-auto {
+    background-color: #000000 !important;
+}
+body > nav > a > img
+{
+    max-width: 55px;
+    padding-right: 10px;
+}
+
+.carousel .item img {
+    max-height: 768px;
+    min-width: auto;
+
+}
+.carousel-inner{
+    width:100%;
+    max-height: 500px !important;
+  }
+.carousel-caption {
+    bottom: 45%;
+}
+.flex__cont{    padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.shadow {
+    background: #fe7e17;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+	width: 300px;
+	height: 150px;
+	margin-right: 8%;
+	margin-left: 8%;	
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.value
+{
+    text-align: center;
+}
+.parametr{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	
+}
+@media (min-width: 768px) { 
+    .onlyphone
+    {
+        display: none;
+    }
+    #goRange{
+        display: none;
+    }
+    div#ref a {
+        font-size: 50px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        color: #fe7f10;
+    }
+    .ref-mob
+    {
+      display: none;
+    }
+    nav.navbar.navbar-expand-lg.navbar-dark.primary-color.ml-auto {
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    a#ref3
+    {
+display: none;
+    }
+}
+@media (max-width:768px)
+{
+    .carousel-caption {
+        display: none;
+    }
+    div#ref {
+        display: none;
+    }
+    #goRange{
+        margin-left: 17%;
+    }
+    html body div.container.flex__cont div.shadow:nth-child(5) {
+
+    height: 240px;
+
+}
+
+}
+.toggl{
+padding-left: 26%;}
+p.light {
+    margin-bottom: 0;
+}
+body > div.container.flex__cont > div:nth-child(4) > div.toggl > div > div > label.btn.btn-primary.toggle-on {
+    background-color: black !important;
+}
+.movtoggl {
+    text-align: center;
+}
+label.btn.btn-primary.btn-xs.toggle-on {
+    background-color: black!important;
+}
+p.valuee{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+p.parametr {
+    margin-bottom: 0 !important;
+}
+.loaded
+{
+    display: none;
+}
+.not_loaded
+{
+    display: none;
+}
+.alert {
+    margin-bottom:0;
+}
+label.btn.btn-light.btn-xs.toggle-off {
+    font-size: 12px;
+}
+.spinn1, .spinn2, .spinn3 {
+    margin-left: 45%;
+    display: none;
+}
+
+

@@ -1,0 +1,1 @@
+{"Temp_out":"25.00","Temp_in":"24.00","Humidity":"33.00","Moving":"0","Pressure":"zaglushka","Light":"0","Jalousie":"25","Guard":"0","status":"online"}
