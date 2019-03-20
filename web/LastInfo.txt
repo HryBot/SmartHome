@@ -1,0 +1,1 @@
+{"Temp_out":"22","Temp_in":"8.8","Humidity":"11","Moving":"0","Pressure":"0.1","Light":"0","Jalousie":"38"}

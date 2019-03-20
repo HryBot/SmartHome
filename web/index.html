@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <!-- Bootstrap core CSS -->  <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/home.png" type="image/png">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"><link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+  <link href="css/toogle.css" rel="stylesheet">
+  <title>SmartHome</title>
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <nav class="navbar navbar-expand-lg navbar-dark primary-color ml-auto" role="navigation">
+    <a class="navbar-brand" href="#"><img src="/img/home.png"><span>SmartHome</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="load">    <div class="spinner-border text-warning" role="status">
+      <span class="sr-only">Loading...</span>
+    </div></div>
+<div class="loaded">    <div class="alert alert-success" role="alert">Подключено!</div></div>
+<div class="not_loaded">    <div class="alert alert-danger" role="alert">Сбой при соединении!</div></div>
+
+    <div id="ref"><a><i class="fas fa-redo"></i></a></div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><img src="img/livingroom.png"  style="max-width: 60px"><span class="onlyphone">   Гостинная</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="img/bedroom.png"  style="max-width: 60px"> <span class="onlyphone">   Спальная</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="img/kitchen.png"  style="max-width: 60px"><span class="onlyphone">  Кухня</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="img/bathroom.png"  style="max-width: 60px"><span class="onlyphone">  Ванная</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="img/street.png"  style="max-width: 60px"><span class="onlyphone">  Улица</span></a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="slider"><!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <div class="view">
+            <img class="d-block w-100" src="/img/smtech1.jpeg" alt="First slide">
+            <div class="mask rgba-black-light"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Наш умный дом порадует вас удобным и понятным управлением, приятным дизайном.</h3>
+            <br>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="img/smtech3.jpg" alt="Second slide">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive" style="text-align: left">Наш дом умеет:</h3>
+            <p><ul>
+             <li style="text-align: left;"> -Климат-контроль во всех комнатах;</li>
+             <li style="text-align: left;"> -Измерять температуру на улице;</li>
+             <li style="text-align: left;"> -Реагировать на движение;</li>
+             <li style="text-align: left;"> -Включать и выключать свет в помещении автоматически;</li>
+             <li style="text-align: left;"> -Оповещение в случае возможного пожара (резкое повышение температуры на кухне) </li>
+            </ul></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100" src="img/smtech3.jpg" alt="Third slide">
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">Наслаждайтесь!</h3>
+          </div>
+        </div>
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+  </div>
+  <div class="container flex__cont">
+			<div class="shadow">
+				<p class="parametr">Влажность</p>
+				<div class="value vlag"><p class="vlag"> </p></div>
+			</div>
+			<div class="shadow">
+				<p class="parametr">Температура</p>
+				<div class="value temp"><p class="temp"> </p></div>
+			</div>
+			<div class="shadow" style="display: flex; flex-direction: column; justify-content: center;">
+          <div class="info1">
+				<p class="parametr">Датчик передвижения</p>
+        <div class="value move"><p class="move"> </p></div>
+        <div class="movtoggl" ><span>Push:</span><input id="toggle-move" type="checkbox"checked data-toggle="toggle" data-size="xs"></div>
+       </div>
+        <div class="spinn1">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+      </div>
+			<div class="shadow" style="display: flex; flex-direction: column; justify-content: center;">
+        <div class="info2">
+				<p class="parametr">Свет</p>
+        <div class="value light"><p class="light"> </p></div>
+      <div class="toggl"><span>Питание:</span><input id="toggle-light" type="checkbox" checked data-toggle="toggle" data-size="xs"></div>
+    </div>
+      <div class="spinn2">
+          <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+    </div>
+			<div class="shadow" style="display: flex; flex-direction: column; justify-content: center;">
+          <div class="info3">	<p class="parametr" >Жалюзи</p>
+        <div class="value jalousie"><p class="jalousie valuee"> </p></div>
+        <p style="text-align: center;">Уровень:</p> 
+        <input type="range" class="custom-range" min="5" max="115" step="10" id="customRange1">
+		<button id="goRange" type="button" class="btn btn-elegant">Повернуть</button>
+        </div>
+        <div class="spinn3">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+			</div>
+			<div class="shadow">
+				<p class="parametr">Температура на улице</p>
+				<div class="value temp_out"><p class="temp_out"> </p></div>
+			</div>
+  </div>
+  <div id="container">
+  </div>
+  <a id="ref3" class="onetw"><button style="position: fixed;bottom: 2px; right: 0;" type="button" class="btn btn-elegant">Обновить</button></a>
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script type="text/javascript" src="js/func.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+
+</body>
+
+</html>
